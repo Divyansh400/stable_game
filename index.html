@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Stable.xyz Ultimate Quiz</title>
+    <title>Stable Fun Quiz</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap" rel="stylesheet">
     <style>
     /* ---------------- GLOBAL STYLES ---------------- */
@@ -335,7 +335,7 @@ button.disabled-option {
 <body>
     <canvas id="particle-bg"></canvas> <div class="container" id="main-container">
         <div id="start-screen" class="screen active">
-            <h1>Stable.xyz Ultimate Quiz</h1>
+            <h1>Stable Fun Quiz</h1>
             <p class="intro-text">Test your knowledge!</p>
             <button id="start-btn" class="main-btn">Start Quiz</button>
             <button id="rules-btn" class="main-btn small-btn">Rules & Boosts</button>
@@ -392,54 +392,54 @@ button.disabled-option {
        /* ---------------- QUIZ DATA ---------------- */
 const questions = [
     {
-        q: "What is Stable.xyz primarily focused on?",
-        options: ["AI Models", "Decentralized Identity", "NFT Art", "Game Engines"],
-        answer: 1
-    },
-    {
-        q: "Stable provides SDKs for?",
-        options: ["Identity Verification", "Mining", "AI Training", "3D Graphics"],
-        answer: 0
-    },
-    {
-        q: "What does the idOS stand for?",
-        options: ["Identity Operating System", "Integrated Data OS", "Internet Digital OS", "Independent OS"],
-        answer: 0
-    },
-    {
-        q: "Which blockchain is supported by Stable?",
-        options: ["Ethereum", "Solana", "Polkadot", "All of the above"],
-        answer: 3
-    },
-    {
-        q: "Main benefit of idOS?",
-        options: ["Centralized storage", "User-controlled identity", "More ads", "Mining rewards"],
-        answer: 1
-    },
-    {
-        q: "What type of data can idOS store?",
-        options: ["KYC Data", "Game Data", "Medical Records", "All of the above"],
-        answer: 3
-    },
-    {
-        q: "What is the mission of Stable?",
-        options: ["To sell NFTs", "To decentralize identity & access", "To mine crypto", "To provide cloud services"],
-        answer: 1
-    },
-    {
-        q: "Developers can integrate Stable with?",
-        options: ["APIs", "SDKs", "Smart contracts", "All of the above"],
-        answer: 3
-    },
-    {
-        q: "Who controls data in idOS?",
-        options: ["Big Tech", "Governments", "The User", "Hackers"],
+        q: "What is the primary purpose of Stable as described in its documentation?",
+        options: ["To serve as a decentralized exchange protocol", "To create a new algorithmic stablecoin", "To provide a blockchain optimized for USDT transfers", "To function as a layer-2 scaling solution for Ethereum"],
         answer: 2
     },
     {
-        q: "Which website provides docs?",
-        options: ["docs.stable.xyz", "stable.io", "stablechain.org", "idOS.net"],
+        q: "Which of the following is a key feature of Stable?",
+        options: ["Gas fees in ETH for all transactions", "Sub-second finality for transactions", "Focused only on NFTs", "Only works with USDC"],
+        answer: 1
+    },
+    {
+        q: "In Stable’s design, what is used as the native gas token?",
+        options: ["ETH", "A new StableCoin", "USDT", "USDC"],
+        answer: 2
+    },
+    {
+        q: "Which of these is a USDT-specific feature mentioned in the documentation?",
+        options: ["Gas-free USDT transfers", "Collateral backing by gold", "Automatic staking rewards", "Algorithmic supply adjustment"],
         answer: 0
+    },
+    {
+        q: "Stable is characterized as which layer in blockchain architecture?",
+        options: ["Layer 2", "Sidechain", "Layer 1", "Offchain protocol"],
+        answer: 2
+    },
+    {
+        q: "For institutional users, Stable offers features such as:",
+        options: ["Guaranteed blockspace allocation", "No support for large transfers", "Only basic wallet functionality", "No privacy features"],
+        answer: 0
+    },
+    {
+        q: "The documentation states that Stable transactions finalize in:",
+        options: ["Several minutes", "Under a second", "Multiple hours", "One block (~15 seconds)"],
+        answer: 1
+    },
+    {
+        q: "Which of the following is NOT a focus area in the Stable docs’ navigation menu?",
+        options: ["Why Stable", "Technical Roadmap", "Smart Contract SDK", "FAQ"],
+        answer: 2
+    },
+    {
+        q: "Which phrase best describes Stable’s approach to large scale USDT transfers?",
+        options: ["They are disallowed", "They incur high fees", "They are optimized", "They require external bridges"],
+        answer: 2
+    },
+    {
+        q: "What balance does Stable aim to strike in its confidential transfer features?",
+        options: ["Total anonymity with no compliance", "No privacy at all", "Privacy while enabling regulatory compliance", "Only compliance, no confidentiality"],
+        answer: 2
     }
 ];
 
